@@ -8,9 +8,18 @@ importers:
 
   .:
     dependencies:
+      framer-motion:
+        specifier: ^12.38.0
+        version: 12.38.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      gray-matter:
+        specifier: ^4.0.3
+        version: 4.0.3
       next:
         specifier: ^16.1.7
         version: 16.1.7(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      next-mdx-remote:
+        specifier: ^6.0.0
+        version: 6.0.0(@types/react@19.2.14)(react@19.2.4)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -45,15 +54,6 @@ importers:
       eslint-config-next:
         specifier: ^16.1.7
         version: 16.1.7(@typescript-eslint/parser@8.57.1(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)
-      framer-motion:
-        specifier: ^12.38.0
-        version: 12.38.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      gray-matter:
-        specifier: ^4.0.3
-        version: 4.0.3
-      next-mdx-remote:
-        specifier: ^6.0.0
-        version: 6.0.0(@types/react@19.2.14)(react@19.2.4)
       postcss:
         specifier: ^8.5.8
         version: 8.5.8
